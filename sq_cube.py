@@ -1,10 +1,9 @@
-def square_cube():
-    i=1
-    while i<=10:
-        square=i*i
-        cube=i*i*i
-        i=i+1
-    return square,cube
+def square_cube(n):
+    square = n * n
+    cube = n * n * n
+    return square, cube
 
-if "__name__" == "__main__":
-    print("square and cube are:",square_cube(10))
+if __name__ == "__main__":
+    s, c = square_cube(10)
+    print("Square:", s)
+    print("Cube:", c)
