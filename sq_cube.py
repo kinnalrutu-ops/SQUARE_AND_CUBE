@@ -13,7 +13,7 @@ def square_cube():
 
 
 if __name__ == "__main__":
-    squares, cubes = square_cube()
+    square, cube = square_cube()
 
-    print("Squares from 1 to 10:", squares)
-    print("Cubes from 1 to 10:", cubes)
+    print("Squares from 1 to 10:", square)
+    print("Cubes from 1 to 10:", cube)
